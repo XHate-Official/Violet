@@ -468,7 +468,7 @@ worry about spammers storming your group[.](https://telegra.ph/file/c1051d264a5b
 __mod_name__ = "Spam Shield"
 
 GBAN_HANDLER = CommandHandler(
-    "gban",
+    "scan",
     gban,
     pass_args=True,
     filters=CustomFilters.dev_filter | CustomFilters.support_filter | CustomFilters.dem_filter,
