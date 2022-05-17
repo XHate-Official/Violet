@@ -38,7 +38,7 @@ from zeldris import (
 )
 from zeldris.modules.helper_funcs.chat_status import (
     is_user_admin,
-    support_plus,
+    dev_plus,
     user_admin,
 )
 from zeldris.modules.helper_funcs.extraction import (
@@ -66,7 +66,7 @@ GBAN_ERRORS = {
 
 
 @gloggable
-@support_plus
+@dev_plus
 def gbanreq(update: Update, context: CallbackContext):
     bot, args = context.bot, context.args
     message = update.effective_message
