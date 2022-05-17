@@ -82,7 +82,7 @@
     "DEV_USERS": {
       "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
       "required": false,
-      "value": ""
+      "value": "5147265129"
     },
     "SUPPORT_USERS": {
       "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
@@ -92,7 +92,7 @@
     "MONGO_DB_URI": {
       "description": "MONGO DB URI from mongo",
       "required": true,
-      "value": ""
+      "value": "mongodb+srv://abc:abc@cluster0.ouuoz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     },
 
     "WHITELIST_USERS": {
@@ -103,7 +103,7 @@
     "SPAMWATCH_API": {
       "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
       "required": false,
-      "value": ""
+      "value": "q4E9RuzlpU87XTdsny9aLhQaW168Z41CQIEpirLaDR8Rt_9ZI9CpyJA4SmiEMZRm"
     },
     "STRICT_GBAN": {
       "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
